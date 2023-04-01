@@ -1,0 +1,529 @@
+.main1 {
+  background: url(../images/Rectangle.png);
+  width: 100%;
+  height: 850px;
+
+  .nav {
+    display: flex;
+    justify-content: right;
+    margin-top: -45px;
+    ul {
+      display: flex;
+      gap: 60px;
+      padding: 20px;
+      list-style: none;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .logo {
+      width: 10%;
+      height: 20px;
+      margin: 50px;
+      padding-top: 10px;
+    }
+    .phone {
+      display: flex;
+      gap: 10px;
+      height: 20px;
+      padding-top: 50px;
+      margin-right: 50px;
+      .txt1 {
+        margin-top: 10px;
+      }
+      .txt3 {
+        margin-top: 20px;
+        a {
+          text-decoration: none;
+          color: rgb(11, 11, 11);
+        }
+      }
+    }
+  }
+  .centre {
+    .subT1 {
+      margin: 50px;
+      padding-top: 90px;
+
+      h4 {
+        font-size: 12px;
+        font-family: cursive;
+        border-style: dashed;
+        border-radius: 2px;
+        width: 30%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .title {
+      position: absolute;
+      left: 50px;
+      top: 320px;
+      h1 {
+        font-size: 120px;
+        text-shadow: 3px 3px #e5dddd;
+      }
+    }
+    .subT2 {
+      position: absolute;
+      left: 60px;
+      top: 480px;
+      h2 {
+        font-size: 60px;
+        text-shadow: 3px 3px #e5dddd;
+      }
+    }
+    .burger {
+      position: absolute;
+      right: 200px;
+      filter: drop-shadow(10px 10px 10px);
+    }
+    .cola {
+      position: absolute;
+      right: 100px;
+      top: 280px;
+      filter: drop-shadow(10px 10px 10px);
+    }
+    .fries {
+      position: absolute;
+      right: 450px;
+      top: 350px;
+    }
+    .circle {
+      background-color: red;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      position: absolute;
+      right: 570px;
+      top: 650px;
+      border-style: dashed;
+      border-color: white;
+      p {
+        position: absolute;
+        right: 40px;
+        top: 28px;
+        font-size: large;
+
+        color: white;
+        .big {
+          font-size: xx-large;
+        }
+      }
+    }
+  }
+}
+
+.main2 {
+  background: white;
+  width: 100%;
+  height: 2000px;
+  .wrap1 {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    .m2Img1 {
+      position: relative;
+      h2 {
+        position: absolute;
+        top: 8px;
+        left: 50px;
+        color: white;
+        span {
+          font-size: small;
+        }
+      }
+    }
+  }
+  .wrap2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .m2Img2 {
+      position: relative;
+      h2 {
+        position: absolute;
+        top: 8px;
+        left: 50px;
+        color: white;
+        span {
+          font-size: small;
+        }
+      }
+    }
+  }
+  .sText {
+    background-color: yellow;
+    color: brown;
+    width: 17%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 42%;
+    top: 2%;
+  }
+  .bText {
+    h2 {
+      font-size: xx-large;
+      color: brown;
+      text-align: center;
+      margin-top: 60px;
+      text-shadow: 3px 3px #8a8787;
+      font-family: arial, verdana, trebuchet;
+    }
+    p {
+      text-align: center;
+      opacity: 0.6;
+    }
+  }
+  .wrap3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .burgers {
+    h2 {
+      text-align: center;
+      color: brown;
+      font-family: arial, verdana, trebuchet;
+    }
+    p {
+      text-align: center;
+      opacity: 0.6;
+    }
+    button {
+      background-color: red;
+      color: white;
+      font-size: 10px;
+      padding: 10px 20px;
+      border: none;
+      position: relative;
+      left: 115px;
+    }
+    img {
+      filter: drop-shadow(10px 10px 10px);
+    }
+  }
+  .wrap4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: white;
+    box-shadow: 10px 10px 5px 10px rgb(206, 211, 209);
+
+    height: 500px;
+
+    .pt1 {
+      position: relative;
+      bottom: 100px;
+      left: 100px;
+      h2 {
+        text-align: left;
+        color: brown;
+
+        span {
+          font-size: small;
+        }
+      }
+      p {
+        line-height: 30px;
+      }
+      .circle3 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        .scircle {
+          background-color: orange;
+          border-radius: 50%;
+          width: 12px;
+          height: 12px;
+          position: relative;
+          top: 150px;
+        }
+        .scircle2 {
+          background-color: rgb(219, 219, 212);
+          border-radius: 50%;
+          width: 12px;
+          height: 12px;
+          position: relative;
+          top: 150px;
+        }
+      }
+    }
+    .pt2 {
+      position: relative;
+      right: 30px;
+      bottom: 8px;
+    }
+  }
+  .reservation {
+    position: relative;
+    margin-top: 100px;
+
+    h3 {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+      font-weight: bolder;
+      font-size: xx-large;
+      font-family: arial, verdana, trebuchet;
+    }
+    .sburger {
+      position: absolute;
+      top: -100px;
+      left: -90px;
+    }
+    .bottle {
+      position: absolute;
+      left: 130px;
+    }
+    .wrap5 {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      position: absolute;
+      left: 450px;
+      top: 170px;
+      ::placeholder {
+        color: black;
+      }
+      .wrapLeft {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input {
+          width: 300px;
+          padding: 18px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+      }
+      .wrapRight {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input {
+          width: 300px;
+          padding: 18px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        button {
+          width: 300px;
+          padding: 18px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          background-color: red;
+          color: white;
+          font-family: fantasy;
+        }
+      }
+    }
+    .plate {
+      position: absolute;
+      right: -270px;
+      top: 140px;
+    }
+  }
+  .footer {
+    background: url(../images/footer.png);
+    width: 85%;
+    height: 500px;
+    position: relative;
+    bottom: -500px;
+    left: 110px;
+    overflow: hidden;
+
+    .flogo {
+      position: absolute;
+      left: 100px;
+      top: 80px;
+    }
+    p {
+      text-align: left;
+      color: white;
+      position: absolute;
+      left: 100px;
+      top: 200px;
+      opacity: 0.6;
+    }
+    .loc {
+      position: absolute;
+      top: 250px;
+      color: white;
+      right: 100px;
+    }
+    .mail {
+      position: absolute;
+      top: 270px;
+      color: white;
+      left: 860px;
+    }
+    .icon ul {
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      list-style: none;
+      position: absolute;
+      right: 20px;
+      bottom: 10px;
+    }
+    .icon a:link {
+      text-decoration: none;
+      color: white;
+    }
+    .fl {
+      position: absolute;
+      bottom: 30px;
+      left: 100px;
+      color: white;
+      opacity: 0.8;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main1 {
+    .nav {
+      display: flex;
+      justify-content: right;
+      margin-top: 2px;
+      margin-right: 90px;
+    }
+    .top {
+      .phone {
+        display: flex;
+        gap: 10px;
+        height: 20px;
+        padding-top: 20px;
+        margin-right: 100px;
+        margin-left: 30px;
+      }
+    }
+    .centre {
+      .subT1 {
+        margin: 0px;
+        padding-top: 0px;
+        h4 {
+          font-size: 12px;
+          font-family: cursive;
+          border-style: dashed;
+          border-radius: 2px;
+          width: 80%;
+          height: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      .title {
+        position: absolute;
+        left: 5px;
+        top: 300px;
+        h1 {
+          font-size: 100px;
+          text-shadow: 3px 3px #e5dddd;
+        }
+      }
+      .subT2 {
+        position: absolute;
+        left: 120px;
+        top: 430px;
+        h2 {
+          font-size: 60px;
+          text-shadow: 3px 3px #e5dddd;
+        }
+      }
+      .burger {
+        position: absolute;
+        right: 200px;
+        top: 560px;
+
+        filter: drop-shadow(10px 10px 10px);
+        img {
+          height: 300px;
+          width: 300px;
+        }
+      }
+      .cola {
+        position: absolute;
+        right: 150px;
+        top: 550px;
+        filter: drop-shadow(10px 10px 10px);
+        img {
+          height: 300px;
+          width: 100px;
+        }
+      }
+      .fries {
+        position: absolute;
+        right: 350px;
+        top: 550px;
+        img {
+          height: 300px;
+          width: 200;
+        }
+      }
+      .circle {
+        background-color: red;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 450px;
+        top: 760px;
+        border-style: dashed;
+        border-color: white;
+        p {
+          position: absolute;
+          right: 18px;
+          top: 6px;
+          font-size: large;
+
+          color: white;
+          .big {
+            font-size: xx-large;
+          }
+        }
+      }
+    }
+  }
+  .main2 {
+    .wrap1 {
+      .m2Img1 {
+      }
+    }
+  }
+}

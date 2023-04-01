@@ -1,0 +1,503 @@
+.main1 {
+  background: url(../images/Rectangle.png);
+  width: 100%;
+  height: 850px;
+}
+.main1 .nav {
+  display: flex;
+  justify-content: right;
+  margin-top: -45px;
+}
+.main1 .nav ul {
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+  list-style: none;
+}
+.main1 .nav a {
+  text-decoration: none;
+  color: black;
+}
+.main1 .top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main1 .top .logo {
+  width: 10%;
+  height: 20px;
+  margin: 50px;
+  padding-top: 10px;
+}
+.main1 .top .phone {
+  display: flex;
+  gap: 10px;
+  height: 20px;
+  padding-top: 50px;
+  margin-right: 50px;
+}
+.main1 .top .phone .txt1 {
+  margin-top: 10px;
+}
+.main1 .top .phone .txt3 {
+  margin-top: 20px;
+}
+.main1 .top .phone .txt3 a {
+  text-decoration: none;
+  color: rgb(11, 11, 11);
+}
+.main1 .centre .subT1 {
+  margin: 50px;
+  padding-top: 90px;
+}
+.main1 .centre .subT1 h4 {
+  font-size: 12px;
+  font-family: cursive;
+  border-style: dashed;
+  border-radius: 2px;
+  width: 30%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main1 .centre .title {
+  position: absolute;
+  left: 50px;
+  top: 320px;
+}
+.main1 .centre .title h1 {
+  font-size: 120px;
+  text-shadow: 3px 3px #e5dddd;
+}
+.main1 .centre .subT2 {
+  position: absolute;
+  left: 60px;
+  top: 480px;
+}
+.main1 .centre .subT2 h2 {
+  font-size: 60px;
+  text-shadow: 3px 3px #e5dddd;
+}
+.main1 .centre .burger {
+  position: absolute;
+  right: 200px;
+  filter: drop-shadow(10px 10px 10px);
+}
+.main1 .centre .cola {
+  position: absolute;
+  right: 100px;
+  top: 280px;
+  filter: drop-shadow(10px 10px 10px);
+}
+.main1 .centre .fries {
+  position: absolute;
+  right: 450px;
+  top: 350px;
+}
+.main1 .centre .circle {
+  background-color: red;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 570px;
+  top: 650px;
+  border-style: dashed;
+  border-color: white;
+}
+.main1 .centre .circle p {
+  position: absolute;
+  right: 40px;
+  top: 28px;
+  font-size: large;
+  color: white;
+}
+.main1 .centre .circle p .big {
+  font-size: xx-large;
+}
+
+.main2 {
+  background: white;
+  width: 100%;
+  height: 2000px;
+}
+.main2 .wrap1 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.main2 .wrap1 .m2Img1 {
+  position: relative;
+}
+.main2 .wrap1 .m2Img1 h2 {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+  color: white;
+}
+.main2 .wrap1 .m2Img1 h2 span {
+  font-size: small;
+}
+.main2 .wrap2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.main2 .wrap2 .m2Img2 {
+  position: relative;
+}
+.main2 .wrap2 .m2Img2 h2 {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+  color: white;
+}
+.main2 .wrap2 .m2Img2 h2 span {
+  font-size: small;
+}
+.main2 .sText {
+  background-color: yellow;
+  color: brown;
+  width: 17%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 42%;
+  top: 2%;
+}
+.main2 .bText h2 {
+  font-size: xx-large;
+  color: brown;
+  text-align: center;
+  margin-top: 60px;
+  text-shadow: 3px 3px #8a8787;
+  font-family: arial, verdana, trebuchet;
+}
+.main2 .bText p {
+  text-align: center;
+  opacity: 0.6;
+}
+.main2 .wrap3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.main2 .burgers h2 {
+  text-align: center;
+  color: brown;
+  font-family: arial, verdana, trebuchet;
+}
+.main2 .burgers p {
+  text-align: center;
+  opacity: 0.6;
+}
+.main2 .burgers button {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 10px 20px;
+  border: none;
+  position: relative;
+  left: 115px;
+}
+.main2 .burgers img {
+  filter: drop-shadow(10px 10px 10px);
+}
+.main2 .wrap4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 150px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: white;
+  box-shadow: 10px 10px 5px 10px rgb(206, 211, 209);
+  height: 500px;
+}
+.main2 .wrap4 .pt1 {
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+}
+.main2 .wrap4 .pt1 h2 {
+  text-align: left;
+  color: brown;
+}
+.main2 .wrap4 .pt1 h2 span {
+  font-size: small;
+}
+.main2 .wrap4 .pt1 p {
+  line-height: 30px;
+}
+.main2 .wrap4 .pt1 .circle3 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.main2 .wrap4 .pt1 .circle3 .scircle {
+  background-color: orange;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 150px;
+}
+.main2 .wrap4 .pt1 .circle3 .scircle2 {
+  background-color: rgb(219, 219, 212);
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 150px;
+}
+.main2 .wrap4 .pt2 {
+  position: relative;
+  right: 30px;
+  bottom: 8px;
+}
+.main2 .reservation {
+  position: relative;
+  margin-top: 100px;
+}
+.main2 .reservation h3 {
+  text-align: center;
+}
+.main2 .reservation h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: arial, verdana, trebuchet;
+}
+.main2 .reservation .sburger {
+  position: absolute;
+  top: -100px;
+  left: -90px;
+}
+.main2 .reservation .bottle {
+  position: absolute;
+  left: 130px;
+}
+.main2 .reservation .wrap5 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: absolute;
+  left: 450px;
+  top: 170px;
+}
+.main2 .reservation .wrap5 ::-moz-placeholder {
+  color: black;
+}
+.main2 .reservation .wrap5 ::placeholder {
+  color: black;
+}
+.main2 .reservation .wrap5 .wrapLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main2 .reservation .wrap5 .wrapLeft input {
+  width: 300px;
+  padding: 18px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.main2 .reservation .wrap5 .wrapRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main2 .reservation .wrap5 .wrapRight input {
+  width: 300px;
+  padding: 18px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.main2 .reservation .wrap5 .wrapRight button {
+  width: 300px;
+  padding: 18px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  font-family: fantasy;
+}
+.main2 .reservation .plate {
+  position: absolute;
+  right: -270px;
+  top: 140px;
+}
+.main2 .footer {
+  background: url(../images/footer.png);
+  width: 85%;
+  height: 500px;
+  position: relative;
+  bottom: -500px;
+  left: 110px;
+  overflow: hidden;
+}
+.main2 .footer .flogo {
+  position: absolute;
+  left: 100px;
+  top: 80px;
+}
+.main2 .footer p {
+  text-align: left;
+  color: white;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  opacity: 0.6;
+}
+.main2 .footer .loc {
+  position: absolute;
+  top: 250px;
+  color: white;
+  right: 100px;
+}
+.main2 .footer .mail {
+  position: absolute;
+  top: 270px;
+  color: white;
+  left: 860px;
+}
+.main2 .footer .icon ul {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  list-style: none;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+.main2 .footer .icon a:link {
+  text-decoration: none;
+  color: white;
+}
+.main2 .footer .fl {
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
+  color: white;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .main1 .nav {
+    display: flex;
+    justify-content: right;
+    margin-top: 2px;
+    margin-right: 90px;
+  }
+  .main1 .top .phone {
+    display: flex;
+    gap: 10px;
+    height: 20px;
+    padding-top: 20px;
+    margin-right: 100px;
+    margin-left: 30px;
+  }
+  .main1 .centre .subT1 {
+    margin: 0px;
+    padding-top: 0px;
+  }
+  .main1 .centre .subT1 h4 {
+    font-size: 12px;
+    font-family: cursive;
+    border-style: dashed;
+    border-radius: 2px;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main1 .centre .title {
+    position: absolute;
+    left: 5px;
+    top: 300px;
+  }
+  .main1 .centre .title h1 {
+    font-size: 100px;
+    text-shadow: 3px 3px #e5dddd;
+  }
+  .main1 .centre .subT2 {
+    position: absolute;
+    left: 120px;
+    top: 430px;
+  }
+  .main1 .centre .subT2 h2 {
+    font-size: 60px;
+    text-shadow: 3px 3px #e5dddd;
+  }
+  .main1 .centre .burger {
+    position: absolute;
+    right: 200px;
+    top: 560px;
+    filter: drop-shadow(10px 10px 10px);
+  }
+  .main1 .centre .burger img {
+    height: 300px;
+    width: 300px;
+  }
+  .main1 .centre .cola {
+    position: absolute;
+    right: 150px;
+    top: 550px;
+    filter: drop-shadow(10px 10px 10px);
+  }
+  .main1 .centre .cola img {
+    height: 300px;
+    width: 100px;
+  }
+  .main1 .centre .fries {
+    position: absolute;
+    right: 350px;
+    top: 550px;
+  }
+  .main1 .centre .fries img {
+    height: 300px;
+    width: 200;
+  }
+  .main1 .centre .circle {
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 450px;
+    top: 760px;
+    border-style: dashed;
+    border-color: white;
+  }
+  .main1 .centre .circle p {
+    position: absolute;
+    right: 18px;
+    top: 6px;
+    font-size: large;
+    color: white;
+  }
+  .main1 .centre .circle p .big {
+    font-size: xx-large;
+  }
+}/*# sourceMappingURL=styles.css.map */
